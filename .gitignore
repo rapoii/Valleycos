@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build
+dist
+dist-ssr
+*.tsbuildinfo
+
+# Local Environment Variables
+# Ignore all .env files to prevent secret leakage
+# Only commit .env.example
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Generated Files (Windows/Mac)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Testing
+coverage
+
+# ESLint
+.eslintcache
